@@ -165,6 +165,7 @@ LANGUAGE plpgsql;
 ---CHU DINH HIEN
 ---ITE6-01
 ---A
+---8.5
 		
 		
 		
