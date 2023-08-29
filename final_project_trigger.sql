@@ -23,7 +23,7 @@ update trangbi set sotb = sotb + 15 where maphong = 'PT03' and matb='TB02';
         end;
         $$
 		language plpgsql;
---TRIGGER INSERT
+--TRIGGER INSERT 
         create trigger tg_insert_trang_bi
         before insert  or update on trangBi
 		for each row
@@ -164,8 +164,7 @@ LANGUAGE plpgsql;
 
 ---CHU DINH HIEN
 ---ITE6-01
----A
----8.5
+
 		
 		
 		
